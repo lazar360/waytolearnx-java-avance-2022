@@ -10,7 +10,7 @@ public class Regex {
 
 		String input;
 		Scanner monScan = new Scanner(System.in);   
-		Pattern myPattern = Pattern.compile("(bon)", Pattern.CASE_INSENSITIVE);
+		Pattern myPattern = Pattern.compile("(bon|jour)", Pattern.CASE_INSENSITIVE);
 		Matcher myMatcher;
 		
 		System.out.println("Bonjour !");
